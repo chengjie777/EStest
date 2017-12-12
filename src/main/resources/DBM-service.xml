@@ -9,7 +9,7 @@
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd 
     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
    <!-- 扫描com.DBM.service包下所有标注@Service的服务组件 -->
-    <context:component-scan base-package="com.es.service"/>
+    <context:component-scan base-package="cn.elasticsearch.service"/>
 	<bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager" p:sessionFactory-ref="sessionFactory" />
      
     <!--使用强大的切点表达式语言轻松定义目标方法-->
